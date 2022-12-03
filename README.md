@@ -8,7 +8,7 @@
 
 **Lab 3**:  C++ program to build a binary tree. Lock/unlock operations used to control access to the tree methods using std::mutex. Coarse vs fine lock granulity explored. Multi-threading with pthreads and std::threads used to run a workload in parallel.
 
-**Lab 4**:  CUDA program to perform matrix multiplications using:
+**Lab 4**:  CUDA program to perform parallelized matrix multiplications using:
 - one thread per product element
 - one thread block per product tile (cache tiled method)
 - one thread per product tile
